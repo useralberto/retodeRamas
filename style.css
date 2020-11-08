@@ -35,6 +35,10 @@ body {
   margin-top: 3rem;
 }
 
+.main section {
+  margin-bottom: 5rem;
+}
+
 .publicidad {
   padding: 3rem;
   background-color: #fffbf7;
@@ -110,4 +114,8 @@ body {
 .explanatory-video img {
   width: 120px;
   margin-top: 10px;
+}
+
+.title_section {
+  padding-bottom: 1rem;
 }
