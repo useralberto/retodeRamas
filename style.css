@@ -33,3 +33,65 @@ body {
 .main {
   margin-top: 3rem;
 }
+
+.publicidad {
+  padding: 3rem;
+  background-color: #fffbf7;
+}
+
+.publicidad__content--title {
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.publicidad__content--text {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.publicidad__form {
+  display: flex;
+}
+
+.publicidad__form--sub {
+  display: flex;
+  justify-content: space-between;
+}
+
+.publicidad__form button{
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  width: 135px;
+  color: #fff;
+  background-color: #025157;
+  cursor: pointer;
+  font-family: 'IBM Plex Sans',Arial,sans-serif;
+  font-weight: 400;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.publicidad__form input {
+  border-left: 1px solid #025157;
+  border-top: 1px solid #025157;
+  border-bottom: 1px solid #025157;
+  height: 48px;
+  width: 100%!important;
+  margin-right: 0;
+  display: block;
+  color: #4a4a4a;
+  background-color: #fff;
+  padding-right: 20px;
+}
